@@ -9,11 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet private weak var selectedPrefectureLabel: UILabel!
+
+    @IBAction private func selected(segue: UIStoryboardSegue) {
+        guard let selectionVC = segue.source as? SelectionViewController else { return }
+        selectedPrefectureLabel.text = selectionVC.selectedPrefecture
     }
-
-
 }
 

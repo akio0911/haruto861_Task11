@@ -13,6 +13,9 @@
 		F10E97F026146B6000F0260A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10E97EE26146B6000F0260A /* Main.storyboard */; };
 		F10E97F226146B6100F0260A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10E97F126146B6100F0260A /* Assets.xcassets */; };
 		F10E97F526146B6100F0260A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10E97F326146B6100F0260A /* LaunchScreen.storyboard */; };
+		F10E97FF26146FA800F0260A /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E97FE26146FA800F0260A /* SelectionViewController.swift */; };
+		F10E98032614700300F0260A /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E98012614700300F0260A /* SelectionTableViewCell.swift */; };
+		F10E98042614700300F0260A /* SelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10E98022614700300F0260A /* SelectionTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F10E97F126146B6100F0260A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F10E97F426146B6100F0260A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F10E97F626146B6100F0260A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10E97FE26146FA800F0260A /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		F10E98012614700300F0260A /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
+		F10E98022614700300F0260A /* SelectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				F10E97E826146B6000F0260A /* AppDelegate.swift */,
 				F10E97EA26146B6000F0260A /* SceneDelegate.swift */,
 				F10E97EC26146B6000F0260A /* ViewController.swift */,
+				F10E97FE26146FA800F0260A /* SelectionViewController.swift */,
+				F10E98012614700300F0260A /* SelectionTableViewCell.swift */,
+				F10E98022614700300F0260A /* SelectionTableViewCell.xib */,
 				F10E97EE26146B6000F0260A /* Main.storyboard */,
 				F10E97F126146B6100F0260A /* Assets.xcassets */,
 				F10E97F326146B6100F0260A /* LaunchScreen.storyboard */,
@@ -124,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10E98042614700300F0260A /* SelectionTableViewCell.xib in Resources */,
 				F10E97F526146B6100F0260A /* LaunchScreen.storyboard in Resources */,
 				F10E97F226146B6100F0260A /* Assets.xcassets in Resources */,
 				F10E97F026146B6000F0260A /* Main.storyboard in Resources */,
@@ -138,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F10E97ED26146B6000F0260A /* ViewController.swift in Sources */,
+				F10E97FF26146FA800F0260A /* SelectionViewController.swift in Sources */,
 				F10E97E926146B6000F0260A /* AppDelegate.swift in Sources */,
+				F10E98032614700300F0260A /* SelectionTableViewCell.swift in Sources */,
 				F10E97EB26146B6000F0260A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
