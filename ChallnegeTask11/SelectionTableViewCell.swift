@@ -8,13 +8,9 @@
 import UIKit
 
 class SelectionTableViewCell: UITableViewCell {
-    @IBOutlet weak var prefectureNameLabel: UILabel!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
+    @IBOutlet private weak var prefectureNameLabel: UILabel!
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }    
+    func configure(prefectureName: String) {
+        prefectureNameLabel.text = prefectureName
+    }
 }
